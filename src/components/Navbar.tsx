@@ -12,7 +12,9 @@ export default function Navbar() {
             <div className="row">
                 <div className="col-12 d-flex justify-content-center">
                     <div id="dismiss" className="mt-4">
-                        <FontAwesomeIcon icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2"/>
+                        <Link to={''}>
+                                <FontAwesomeIcon icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2" />
+                            </Link> 
                     </div>
                 </div>
             </div>

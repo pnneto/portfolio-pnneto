@@ -1,6 +1,7 @@
 import unip from 'assets/img/Unip.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function CertificadosGraduação() {
     return (
@@ -45,7 +46,9 @@ export default function CertificadosGraduação() {
                 <div className="modal-dialog modal-dialog-centered modal-xl">
                     <div className="modal-content" style={{ background: "#121212" }}>
                         <div className="modal-header d-flex justify-content-end">
-                            <FontAwesomeIcon  icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2" />
+                            <Link to={''}>
+                                <FontAwesomeIcon  icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2"/>
+                            </Link>
                         </div>
                         <div className="modal-body  d-flex justify-content-center">
                             Teste

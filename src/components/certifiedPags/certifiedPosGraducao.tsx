@@ -2,6 +2,7 @@ import uniciv from 'assets/img/Uniciv.png';
 import diploma from 'assets/certified/diplomaUniciv.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function CertificadosPosGraduação() {
     return (
@@ -46,10 +47,11 @@ export default function CertificadosPosGraduação() {
                 <div className="modal-dialog modal-dialog-centered modal-xl">
                     <div className="modal-content" style={{ background: "#121212" }}>
                         <div className="modal-header d-flex justify-content-end">
-                            <FontAwesomeIcon  icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2" />
-                        </div>
+                            <Link to={''}>
+                                <FontAwesomeIcon icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2" />
+                            </Link>                        </div>
                         <div className="modal-body  d-flex justify-content-center">
-                            <img className="d-block w-100" src={diploma} alt="Diploma Uniciv"/>
+                            <img className="d-block w-100" src={diploma} alt="Diploma Uniciv" />
                         </div>
                     </div>
                 </div>

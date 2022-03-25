@@ -21,8 +21,8 @@ export default function Home() {
             <div className="container">
                 <div className="row d-flex">
                     <div className="col-12 col-lg-5">
-                        <div className="ml-5 ml-auto borda-shadow d-flex justify-content-end">
-                            <img className="d-block w-75 rounded" src={perfil} alt="Primeiro Slide"/>
+                        <div className="ml-5 ml-auto borda-shadow d-flex justify-content-center">
+                            <img className="d-block w-75 rounded" src={perfil} alt="Foto de Perfil"/>
                         </div>
                     </div>
                     <div className="col-12 col-lg-5 pt-4">
@@ -53,12 +53,12 @@ export default function Home() {
                             Minhas principais habilidades
                         </h5>
                         <div className="mb-3 d-flex">
-                            <Figma width={30}/>
-                            <Photoshop width={30}/>
-                            <Illustrator width={30}/>
-                            <JavaScript width={30}/>
-                            <Html width={30}/>
-                            <Css width={30}/>
+                            <Figma width={30} className="me-2"/>
+                            <Photoshop width={30} className="me-2"/>
+                            <Illustrator width={30} className="me-2"/>
+                            <JavaScript width={30} className="me-2"/>
+                            <Html width={30} className="me-2"/>
+                            <Css width={30} className="me-2"/>
                         </div>
                     </div>
                 </div>
