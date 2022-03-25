@@ -1,11 +1,11 @@
 import CertificadosGraduação from 'components/certifiedPags/certifiedGraduacao';
 import CertificadosPosGraduação from 'components/certifiedPags/certifiedPosGraducao';
-import CursoUxUsabilidade from 'components/certifiedPags/cursos/UxUsabilidade';
-import CursoUxStrategy from 'components/certifiedPags/cursos/UxStrategy';
-import CursoUxProduto from 'components/certifiedPags/cursos/UxProduto';
-import CursoDesignSystem from 'components/certifiedPags/cursos/DesignSystem';
-import CursoFigmaDesign from 'components/certifiedPags/cursos/FigmaDesign';
-import CursoFigmaComponentes from 'components/certifiedPags/cursos/FigmaComponentes';
+import CursoUxUsabilidade from 'components/certifiedPags/UxUsabilidade';
+import CursoUxStrategy from 'components/certifiedPags/UxStrategy';
+import CursoUxProduto from 'components/certifiedPags/UxProduto';
+import CursoDesignSystem from 'components/certifiedPags/DesignSystem';
+import CursoFigmaDesign from 'components/certifiedPags/FigmaDesign';
+import CursoFigmaComponentes from 'components/certifiedPags/FigmaComponentes';
 
 export default function Certificados() {
 
