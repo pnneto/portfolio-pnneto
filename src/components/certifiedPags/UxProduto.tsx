@@ -11,7 +11,7 @@ export default function CursoUxProduto() {
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
-                        <a className="btn" data-bs-toggle="modal" data-bs-target="#UxProduto" >
+                        <button className="btn" data-bs-toggle="modal" data-bs-target="#UxProduto" >
                             <div className="text-center mb-2">
                                 <UxProduto width={50} />
                             </div>
@@ -24,7 +24,7 @@ export default function CursoUxProduto() {
                             <div className="text-center" style={{ opacity: "0.5" }}>
                                 Monitore, mensure e teste o seu projeto
                             </div>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

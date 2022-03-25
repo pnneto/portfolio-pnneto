@@ -35,7 +35,7 @@ export default function Projects() {
                                 <h4>{project.titulo}</h4>
                                 <p style={{ opacity: "0.5" }} className="texto-corrido">{project.paragrafo}</p>
                                 <div className="">
-                                    <a className="btn btn-principal my-2 my-sm-0" target="_blank" href={project.link}>
+                                    <a className="btn btn-principal my-2 my-sm-0" target="_blank" rel="noreferrer" href={project.link}>
                                         Ver o projeto completo
                                     </a>
                                 </div>

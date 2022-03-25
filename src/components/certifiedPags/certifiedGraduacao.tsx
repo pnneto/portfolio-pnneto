@@ -33,9 +33,9 @@ export default function CertificadosGraduação() {
                         </h4>
                     </div>
                     <div className="pt-2">
-                        <a className="btn btn-principal my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#Unip" href="#">
+                        <button className="btn btn-principal my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#Unip">
                             Ver meu diploma
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

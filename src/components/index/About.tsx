@@ -36,18 +36,18 @@ export default function Home() {
                             o aprimoramento do produto rural brasileiro com soluções de inteligência artificial.
                         </p>
                         <div className="mb-3 d-flex">
-                            <a className="pe-2" href="https://www.instagram.com/pnsndesign/" target="_blank">
+                            <a className="pe-2" href="https://www.instagram.com/pnsndesign/" target="_blank" rel="noreferrer">
                                 <Instagram width={40}/>
                             </a>
-                            <a className="pe-2" href="https://www.linkedin.com/in/pedro-neto-sn/" target="_blank">
+                            <a className="pe-2" href="https://www.linkedin.com/in/pedro-neto-sn/" target="_blank" rel="noreferrer">
                                 <Linkedin width={40}/>
                             </a>
-                            <a className="pe-2" href="mailto:pedrontsousa@gmail.com" target="_blank">
+                            <a className="pe-2" href="mailto:pedrontsousa@gmail.com" target="_blank" rel="noreferrer">
                                 <Gmail width={40}/>
                             </a>
                         </div>
                         <div className="mb-3 d-flex">
-                            <a className="btn btn-principal my-2 my-sm-0" href="https://drive.google.com/file/d/1-NlgjnPs8jwybgLRPw_DSxDdU6CN2Gac/view" target="_blank">Currículo</a>
+                            <a className="btn btn-principal my-2 my-sm-0" href="https://drive.google.com/file/d/1-NlgjnPs8jwybgLRPw_DSxDdU6CN2Gac/view" target="_blank" rel="noreferrer">Currículo</a>
                         </div>
                         <h5 className="mb-2">
                             Minhas principais habilidades

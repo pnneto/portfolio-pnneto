@@ -34,9 +34,9 @@ export default function CertificadosPosGraduação() {
                         </h4>
                     </div>
                     <div className="pt-2">
-                        <a className="btn btn-principal my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#Uniciv" href="#">
+                        <button className="btn btn-principal my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#Uniciv">
                             Ver meu diploma
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>

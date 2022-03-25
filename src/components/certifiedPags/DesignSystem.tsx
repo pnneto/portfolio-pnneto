@@ -11,7 +11,7 @@ export default function CursoDesignSystem() {
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
-                        <a className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >
+                        <button className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >
                             <div className="text-center mb-2">
                                 <DesignSystem width={50} />
                             </div>
@@ -24,7 +24,7 @@ export default function CursoDesignSystem() {
                             <div className="text-center" style={{ opacity: "0.5" }}>
                                 Trabalhando na construção de um Design System
                             </div>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function CursoDesignSystem() {
                             <FontAwesomeIcon icon={faXmark} data-bs-dismiss="modal" aria-label="Close" className="fs-2" />
                         </div>
                         <div className="modal-body  d-flex justify-content-center">
-                            <img className="d-block w-100" src={diploma} alt="Diploma Figma" />
+                            <img className="d-block w-100" src={diploma} alt="Diploma Figma"/>
                         </div>
                     </div>
                 </div>

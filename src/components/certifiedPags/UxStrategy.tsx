@@ -11,7 +11,7 @@ export default function CursoUxStrategy() {
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
-                        <a className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >
+                        <button className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >
                             <div className="text-center mb-2">
                                 <UxStrategy width={50} />
                             </div>
@@ -24,7 +24,7 @@ export default function CursoUxStrategy() {
                             <div className="text-center" style={{ opacity: "0.5" }}>
                                 Divergindo e afunilando ideias
                             </div>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
