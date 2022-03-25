@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-import CursoUxUsabilidade from 'components/certifiedPags/Cursos/UxUsabilidade';
-import CursoDesignSystem from 'components/certifiedPags/Cursos/DesignSystem';
-import CursoUxProduto from 'components/certifiedPags/Cursos/UxProduto';
-import CursoUxStrategy from 'components/certifiedPags/Cursos/UxStrategy';
+import CursoUxUsabilidade from 'components/certifiedPags/cursos/UxUsabilidade';
+import CursoDesignSystem from 'components/certifiedPags/cursos/DesignSystem';
+import CursoUxProduto from 'components/certifiedPags/cursos/UxProduto';
+import CursoUxStrategy from 'components/certifiedPags/cursos/UxStrategy';
 
 
 export default function Certified() {
