@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #121212;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    min-height: 90vh;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: #121212;
+}
+
+
+/* INICIO CONFIG TEXTOS */
+
+.titulo-maior {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.titulo-pag {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texto-grande {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.texto-corrido {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.texto-corrido-bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* INICIO BOTAO MENU */
+
+.btn-principal {
+    color: #fff;
+    background-color: transparent;
+    border: #004480 solid 1px;
+}
+
+.btn-principal:hover {
+    color: #fff;
+    background-color: #004480;
+    border-color: #004480;
+    transition: 0.3s ease;
+}
+
+.btn-secundario {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-secundario:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.card-body:hover .card-titulo {
+    color: #008AFF;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+
+
+/* FIM BOTAO */
+
+
+/* INICIO MENU */
+
+.titulo-modal {
+    border-bottom: 2px solid #cfa670;
+    width: 250px;
+}
+
+.nav-link :hover {
+    transition: 0.3s ease;
+    color: #008AFF;
+    width: 100%;
+}
+
+
+/* FIM MENU */
+
+
+/* INICIO MENU */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #121212;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    right: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: #121212;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-weight: 700;
+    display: block;
+    color: #fff
+}
+
+#sidebar ul li a:hover {
+    color: #008AFF;
+}
+
+
+/* FINAL MENU */
+
+
+/* CERTIFICADO */
+
+.card,
+.card-body {
+    background-color: #121212;
+    border-color: #121212;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 65px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card-centralizado {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 442px) {
+    .btn-secundario-xm {
+        width: 100%;
+    }
+}
