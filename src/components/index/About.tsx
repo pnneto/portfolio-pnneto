@@ -56,7 +56,7 @@ export default function Home() {
                             <Figma width={30} className="me-2"/>
                             <Photoshop width={30} className="me-2"/>
                             <Illustrator width={30} className="me-2"/>
-                            <JavaScript width={30} className="me-2"/>
+                            <JavaScript width={30} className="me-2" />
                             <Html width={30} className="me-2"/>
                             <Css width={30} className="me-2"/>
                         </div>
