@@ -1,4 +1,3 @@
-import exProject from 'assets/img/Img.png';
 import { ProjectsList } from 'constantsObjects/projects';
 
 export default function Projetos() {
@@ -22,7 +21,7 @@ export default function Projetos() {
                     {projects.map( project => (
                         <div key={project.id} className="col-sm-12 col-md-6 mb-4">
                             <div className="ml-5 ml-auto borda-shadow">
-                                <img className="d-block w-100 rounded" src={project.foto} alt="Primeiro Slide" />
+                                {project.foto}
                             </div>
                             <div className="mt-3">
                                 <h4>{project.titulo}</h4>
