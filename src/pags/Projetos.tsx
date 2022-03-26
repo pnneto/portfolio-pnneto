@@ -28,7 +28,7 @@ export default function Projetos() {
                                 <p style={{ opacity: "0.5" }} className="texto-corrido">{project.paragrafo}</p>
                                 <div className="">
                                     <a className="btn btn-principal my-2 my-sm-0" target="_blank" rel="noreferrer" href={project.link}>
-                                        Ver o projeto completo
+                                        Projeto completo
                                     </a>
                                 </div>
                             </div>

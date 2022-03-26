@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { ProjectsList } from 'constantsObjects/projects';
 
 export default function Projects() {
-    const projects = ProjectsList.filter(e => e.id <= 1 );
+    const projects = ProjectsList.filter(e => e.id <= 1);
     return (
         <>
             <div className="container-fluid p-3" style={{ background: "#151515" }}>
@@ -36,7 +36,7 @@ export default function Projects() {
                                 <p style={{ opacity: "0.5" }} className="texto-corrido">{project.paragrafo}</p>
                                 <div className="">
                                     <a className="btn btn-principal my-2 my-sm-0" target="_blank" rel="noreferrer" href={project.link}>
-                                        Ver o projeto completo
+                                        Projeto completo
                                     </a>
                                 </div>
                             </div>

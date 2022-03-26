@@ -1,4 +1,5 @@
 import unip from 'assets/img/Unip.png';
+import diploma from 'assets/certified/diplomaUnip.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -51,7 +52,7 @@ export default function CertificadosGraduação() {
                             </Link>
                         </div>
                         <div className="modal-body  d-flex justify-content-center">
-                            Teste
+                            <img className="d-block w-100" src={diploma} alt="Diploma Uniciv" />
                         </div>
                     </div>
                 </div>
