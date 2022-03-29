@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { ProjectsList } from 'constantsObjects/projects';
 
 export default function Projects() {
-    const projects = ProjectsList.filter(e => e.id <= 1);
+    const projects = ProjectsList.filter(e => e.id <= 1).reverse();
+
     return (
         <>
             <div className="container-fluid p-3" style={{ background: "#151515" }}>

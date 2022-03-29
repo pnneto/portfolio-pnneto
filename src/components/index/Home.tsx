@@ -48,7 +48,7 @@ export default function Home() {
                         </div>
                         <div className="col-lg-5 col-md-8 d-none d-sm-block d-sm-none d-md-block">
                             <div className="ml-5 ml-auto">
-                                <img className="d-block w-100 rounded-circle" src={perfil} alt="Primeiro Slide"/>
+                                <img className="d-block w-100 rounded-circle" src={perfil} alt="Foto Principal"/>
                             </div>
                         </div>
                     </div>

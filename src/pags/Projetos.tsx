@@ -1,7 +1,8 @@
 import { ProjectsList } from 'constantsObjects/projects';
 
 export default function Projetos() {
-    const projects = ProjectsList;
+    const projects = ProjectsList.filter(e => e.id >= 0).reverse();
+
     return (
         <>
         
