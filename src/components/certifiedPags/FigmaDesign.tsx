@@ -1,5 +1,5 @@
-import diploma from 'assets/certified/DesignVisual.png'
-import { ReactComponent as FigmaDesign } from 'assets/img/figma-design-visual-site-mobile.svg';
+import diploma from 'assets/certified/designVisual/designVisual.png'
+import { ReactComponent as FigmaDesign } from 'assets/certified/designVisual/figma-design-visual-site-mobile.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ export default function CursoFigmaDesign() {
     return (
         <>
             {/* <!-- CERITICADO Curso --> */}
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-centralizado">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
                         <button className="btn" data-bs-toggle="modal" data-bs-target="#FigmaDesign" >

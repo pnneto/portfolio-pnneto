@@ -1,5 +1,6 @@
-import unip from 'assets/img/Unip.png';
-import diploma from 'assets/certified/diplomaUnip.png'
+import unip from 'assets/certified/diplomaUnip/unip.png';
+import diploma from 'assets/certified/diplomaUnip/diplomaUnip.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';

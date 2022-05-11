@@ -1,8 +1,8 @@
-import perfil from 'assets/img/Perfil.png';
+import perfil from 'assets/img/profile/Perfil.png';
 
-import { ReactComponent as Instagram } from 'assets/img/Instagram.svg';
-import { ReactComponent as Linkedin } from 'assets/img/linkedin.svg';
-import { ReactComponent as Gmail } from 'assets/img/gmail.svg';
+import { ReactComponent as Instagram } from 'assets/img/icons/instagram.svg';
+import { ReactComponent as Linkedin } from 'assets/img/icons/linkedin.svg';
+import { ReactComponent as Gmail } from 'assets/img/icons/gmail.svg';
 
 export default function Home() {
     return (
@@ -31,7 +31,7 @@ export default function Home() {
                             </p>
                             <div className="mb-3 d-flex">
                             <a className="pe-2" href="https://www.instagram.com/pnsndesign/" target="_blank" rel="noreferrer">
-                                <Instagram width={40}/>
+                                <Instagram width={40} className="social" />
                             </a>
                             <a className="pe-2" href="https://www.linkedin.com/in/pedro-neto-sn/" target="_blank" rel="noreferrer">
                                 <Linkedin width={40}/>

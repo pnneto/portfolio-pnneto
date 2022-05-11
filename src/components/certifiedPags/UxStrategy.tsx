@@ -1,5 +1,5 @@
-import diploma from 'assets/certified/Uxstrategy.png'
-import { ReactComponent as UxStrategy } from 'assets/img/ux-strategy.svg';
+import diploma from 'assets/certified/uxStrategy/uxStrategy.png'
+import { ReactComponent as UxStrategy } from 'assets/certified/uxStrategy/ux-strategy.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ export default function CursoUxStrategy() {
     return (
         <>
             {/* <!-- CERITICADO Curso --> */}
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-centralizado largura">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
                         <button className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >

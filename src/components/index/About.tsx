@@ -1,15 +1,15 @@
-import perfil from 'assets/img/perfil2.jpg';
+import perfil from 'assets/img/profile/perfil2.jpg';
 
-import { ReactComponent as Instagram } from 'assets/img/Instagram.svg';
-import { ReactComponent as Linkedin } from 'assets/img/linkedin.svg';
-import { ReactComponent as Gmail } from 'assets/img/gmail.svg';
+import { ReactComponent as Instagram } from 'assets/img/icons/instagram.svg';
+import { ReactComponent as Linkedin } from 'assets/img/icons/linkedin.svg';
+import { ReactComponent as Gmail } from 'assets/img/icons/gmail.svg';
 
-import { ReactComponent as Figma } from 'assets/img/Figma.svg';
-import { ReactComponent as Photoshop } from 'assets/img/Photoshop.svg';
-import { ReactComponent as Illustrator } from 'assets/img/Illustrator.svg';
-import { ReactComponent as JavaScript } from 'assets/img/JavaScript.svg';
-import { ReactComponent as Html } from 'assets/img/Html.svg';
-import { ReactComponent as Css } from 'assets/img/Css.svg';
+import { ReactComponent as Figma } from 'assets/img/skills/Figma.svg';
+import { ReactComponent as Photoshop } from 'assets/img/skills/Photoshop.svg';
+import { ReactComponent as Illustrator } from 'assets/img/skills/Illustrator.svg';
+import { ReactComponent as JavaScript } from 'assets/img/skills/JavaScript.svg';
+import { ReactComponent as Html } from 'assets/img/skills/Html.svg';
+import { ReactComponent as Css } from 'assets/img/skills/Css.svg';
 
 
 

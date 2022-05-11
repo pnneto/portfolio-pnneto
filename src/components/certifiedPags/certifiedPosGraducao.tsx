@@ -1,5 +1,6 @@
-import uniciv from 'assets/img/Uniciv.png';
-import diploma from 'assets/certified/diplomaUniciv.png'
+import uniciv from 'assets/certified/diplomaUniciv/uniciv.png';
+import diploma from 'assets/certified/diplomaUniciv/diplomaUniciv.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';

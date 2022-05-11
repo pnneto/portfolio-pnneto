@@ -1,5 +1,5 @@
-import portfolio from 'assets/img/ProjetoPortfolio.png'
-import rockburger from 'assets/img/ProjetoRockBurger.png'
+import portfolio from 'assets/img/projects/projetoPortfolio.png'
+import rockburger from 'assets/img/projects/projetoRockBurger.png'
 
 export const ProjectsList = [
     {

@@ -6,12 +6,14 @@ import CursoUxProduto from 'components/certifiedPags/UxProduto';
 import CursoDesignSystem from 'components/certifiedPags/DesignSystem';
 import CursoFigmaDesign from 'components/certifiedPags/FigmaDesign';
 import CursoFigmaComponentes from 'components/certifiedPags/FigmaComponentes';
+import CursoDesignThinking from 'components/certifiedPags/DesignThinking';
+import CursoUiPatterns from 'components/certifiedPags/UiPatterns';
 
 export default function Certificados() {
 
     return (
         <>
-            <div className="container mt-5 mb-1">
+            <div className="container mt-5 mb-1" >
 
                 <div className="row d-flex mt-5 mb-4 pb-5">
                     <div className="col-4 col-lg-8">
@@ -31,6 +33,8 @@ export default function Certificados() {
                         </div>
                     </div>
                     <div className="row card-centralizado">
+                        <CursoUiPatterns />
+                        <CursoDesignThinking />
                         <CursoUxUsabilidade />
                         <CursoUxStrategy />
                         <CursoUxProduto/>

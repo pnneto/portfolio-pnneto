@@ -105,7 +105,7 @@ h5 {
 
 .card-body:hover .card-titulo {
     color: #008AFF;
-    font-size: 17px;
+    font-size: 16px;
     transition: 0.3s ease;
 }
 
@@ -205,6 +205,18 @@ h5 {
 @media (max-width: 768px) {
     .logo {
         width: 65px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .col-lg-2 {
+        width: 19%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-2 {
+        width: 25%;
     }
 }
 

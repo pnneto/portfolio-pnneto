@@ -1,5 +1,5 @@
-import diploma from 'assets/certified/Componentes.png'
-import { ReactComponent as FigmaComponentes } from 'assets/img/figma-componentes-interface.svg';
+import diploma from 'assets/certified/componentes/componentes.png'
+import { ReactComponent as FigmaComponentes } from 'assets/certified/componentes/figma-componentes-interface.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ export default function CursoFigmaComponentes() {
     return (
         <>
             {/* <!-- CERITICADO Curso --> */}
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 card-centralizado">
+            <div className="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-centralizado">
                 <div className="card" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
                         <button className="btn" data-bs-toggle="modal" data-bs-target="#FigmaComponentes" >
