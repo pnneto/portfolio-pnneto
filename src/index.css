@@ -103,14 +103,63 @@ h5 {
     text-decoration: underline;
 }
 
-.card-body:hover .card-titulo {
-    color: #008AFF;
-    font-size: 16px;
-    transition: 0.3s ease;
+
+/* FIM BOTAO */
+
+
+/* INICIO BOTÃO CONTATO */
+
+.btn-contato {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.icon-container {
+    width: 100%;
+    height: 50px;
+}
+
+.icon {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.icon-contato {
+    position: relative;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: all 0.25s ease;
+}
+
+.icon:before,
+.icon:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.25s ease;
+    border-radius: 30px;
+}
+
+.icon-fill:before {
+    transition-duration: 0.5s;
+    box-shadow: inset 0 0 0 1px #004480;
+}
+
+.icon-fill:hover:before {
+    box-shadow: inset 0 0 0 60px #004480;
 }
 
 
-/* FIM BOTAO */
+/* FIM BOTÃO CONTATO */
 
 
 /* INICIO MENU */
@@ -192,6 +241,53 @@ h5 {
 
 
 /* FINAL MENU */
+
+
+/* INICIO CARD CERTIFICADOS */
+
+.cards:hover .card-titulo {
+    color: #008AFF;
+    transition: 0.3s ease;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards:after,
+.cards:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
+    transition: transform .3s ease-in-out;
+}
+
+.cards:before {
+    border-left: 1px solid #004480;
+    border-right: 1px solid #004480;
+    transform: scaleY(0);
+}
+
+.cards:after {
+    border-top: 1px solid #004480;
+    border-bottom: 1px solid #004480;
+    transform: scaleX(0);
+}
+
+.cards:hover:before {
+    transform: scaleY(1);
+}
+
+.cards:hover:after {
+    transform: scaleX(1);
+}
+
+
+/* FIM CARD CERTIFICADOS */
 
 
 /* CERTIFICADO */

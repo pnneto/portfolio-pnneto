@@ -1,8 +1,5 @@
 import perfil from 'assets/img/profile/Perfil.png';
-
-import { ReactComponent as Instagram } from 'assets/img/icons/instagram.svg';
-import { ReactComponent as Linkedin } from 'assets/img/icons/linkedin.svg';
-import { ReactComponent as Gmail } from 'assets/img/icons/gmail.svg';
+import Contato from 'components/Contato';
 
 export default function Home() {
     return (
@@ -29,17 +26,7 @@ export default function Home() {
                             <p className="pt-2 texto-corrido">
                                 “É a maneira como você experimenta o mundo, é a maneira como você experimenta sua vida, é a maneira que você experimenta um serviço, ou um aplicativo ou um sistema de computador” - Don Norman
                             </p>
-                            <div className="mb-3 d-flex">
-                            <a className="pe-2" href="https://www.instagram.com/pnsndesign/" target="_blank" rel="noreferrer">
-                                <Instagram width={40} className="social" />
-                            </a>
-                            <a className="pe-2" href="https://www.linkedin.com/in/pedro-neto-sn/" target="_blank" rel="noreferrer">
-                                <Linkedin width={40}/>
-                            </a>
-                            <a className="pe-2" href="mailto:pedrontsousa@gmail.com" target="_blank" rel="noreferrer">
-                                <Gmail width={40}/>
-                            </a>
-                            </div>
+                            <Contato />
                             <div className="">
                                 <a className="btn btn-principal my-2 my-sm-0" href="#about" rel="noreferrer">
                                     Saiba mais sobre mim

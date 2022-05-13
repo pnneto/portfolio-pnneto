@@ -1,8 +1,5 @@
 import perfil from 'assets/img/profile/perfil2.jpg';
-
-import { ReactComponent as Instagram } from 'assets/img/icons/instagram.svg';
-import { ReactComponent as Linkedin } from 'assets/img/icons/linkedin.svg';
-import { ReactComponent as Gmail } from 'assets/img/icons/gmail.svg';
+import Contato from 'components/Contato';
 
 import { ReactComponent as Figma } from 'assets/img/skills/Figma.svg';
 import { ReactComponent as Photoshop } from 'assets/img/skills/Photoshop.svg';
@@ -35,17 +32,9 @@ export default function Home() {
                             Atuo como UX Designer desde setembro de 2021. Estou habituado a trabalhar com metodologias ágeis tanto Scrum como Kanban, com Design Thinking, pesquisas, wireframes e protótipos. Atualmente participo do projeto Mappiá no Banco do Brasil, o qual busca
                             o aprimoramento do produto rural brasileiro com soluções de inteligência artificial.
                         </p>
-                        <div className="mb-3 d-flex">
-                            <a className="pe-2" href="https://www.instagram.com/pnsndesign/" target="_blank" rel="noreferrer">
-                                <Instagram width={40}/>
-                            </a>
-                            <a className="pe-2" href="https://www.linkedin.com/in/pedro-neto-sn/" target="_blank" rel="noreferrer">
-                                <Linkedin width={40}/>
-                            </a>
-                            <a className="pe-2" href="mailto:pedrontsousa@gmail.com" target="_blank" rel="noreferrer">
-                                <Gmail width={40}/>
-                            </a>
-                        </div>
+                        
+                        <Contato />
+
                         <div className="mb-3 d-flex">
                             <a className="btn btn-principal my-2 my-sm-0" href="https://drive.google.com/file/d/1-NlgjnPs8jwybgLRPw_DSxDdU6CN2Gac/view" target="_blank" rel="noreferrer">Currículo</a>
                         </div>

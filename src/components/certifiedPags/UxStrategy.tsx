@@ -10,7 +10,7 @@ export default function CursoUxStrategy() {
         <>
             {/* <!-- CERITICADO Curso --> */}
             <div className="col-lg-2 col-md-4 col-sm-6 col-6 mb-4 card-centralizado largura">
-                <div className="card" style={{ width: "12rem", height: "17rem" }}>
+                <div className="card cards" style={{ width: "12rem", height: "17rem" }}>
                     <div className="card-body" style={{ background: "#151515" }}>
                         <button className="btn" data-bs-toggle="modal" data-bs-target="#UxStrategy" >
                             <div className="text-center mb-2">
